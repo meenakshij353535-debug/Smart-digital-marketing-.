@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Smart Digital Marketing</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    header, section, footer {
+      padding: 60px 20px;
+    }
+    h1, h2, h3 {
+      margin-bottom: 20px;
+    }
+    p {
+      max-width: 800px;
+      margin: 0 auto 20px;
+    }
+    .btn {
+      background-color: #ff4b2b;
+      color: white;
+      padding: 12px 25px;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 20px;
+    }
+
+    /* Section Backgrounds */
+    header {
+      background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover;
+      color: white;
+    }
+    #about {
+      background-color: #f7f7f7;
+    }
+    #services {
+      background: linear-gradient(135deg, #ffe259, #ffa751);
+    }
+    #contact {
+      background-color: #e0f7fa;
+    }
+    #testimonials {
+      background: linear-gradient(135deg, #00c6ff, #0072ff);
+      color: white;
+    }
+    #blog {
+      background-color: #f1f1f1;
+    }
+    #faqs {
+      background-color: #fff3e0;
+    }
+    footer {
+      background-color: #2c3e50;
+      color: white;
+    }
+    img.section-img {
+      width: 80%;
+      max-width: 600px;
+      border-radius: 10px;
+      margin: 20px auto;
+    }
+    iframe, video {
+      width: 90%;
+      max-width: 600px;
+      height: 300px;
+      border: none;
+      margin-top: 20px;
+    }
+    .footer-links a {
+      color: #ff9f43;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+    form input, form textarea {
+      width: 300px;
+      padding: 10px;
+      margin: 10px auto;
+      display: block;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header / Homepage -->
+  <header>
+    <h1 style="color: #fff;">Welcome to Smart Digital Marketing</h1>
+    <p style="color: #f0f0f0;">Your partner in data-driven, creative, and high-ROI digital campaigns.</p>
+    <img src="https://via.placeholder.com/800x300?text=Smart+Digital+Marketing+Banner" alt="Banner" class="section-img">
+    <a href="#contact" class="btn">Start Your Project</a>
+  </header>
+
+  <!-- About Us -->
+  <section id="about">
+    <h2>About Us</h2>
+    <img src="https://via.placeholder.com/600x300?text=J.+Meenakshi+-+Founder" alt="J. Meenakshi" class="section-img">
+    <h3>J. Meenakshi – Founder & Digital Strategist</h3>
+    <p><strong>Mission:</strong> Empower businesses with smart, scalable digital marketing.</p>
+    <p><strong>Vision:</strong> To be the most trusted digital marketing agency worldwide.</p>
+    <p><strong>Values:</strong> Strategy, Transparency, Results.</p>
+    <p>Founded by J. Meenakshi in 2020, Smart Digital Marketing has helped 150+ clients grow online through customized marketing strategies, creative content, and measurable results.</p>
+  </section>
+
+  <!-- Services -->
+  <section id="services">
+    <h2>Our Services</h2>
+    <img src="https://via.placeholder.com/600x300?text=Digital+Services" alt="Services" class="section-img">
+
+    <div>
+      <h3>Social Media Marketing</h3>
+      <p>Engage your audience on Facebook, Instagram, LinkedIn & more.</p>
+      <p><strong>Starting at:</strong> $300/month</p>
+    </div>
+
+    <div>
+      <h3>Search Engine Optimization (SEO)</h3>
+      <p>Rank higher on Google and grow your organic traffic.</p>
+      <p><strong>Starting at:</strong> $400/month</p>
+    </div>
+
+    <div>
+      <h3>Google & Meta Ads</h3>
+      <p>High-performance ad campaigns that generate leads & sales.</p>
+      <p><strong>Starting at:</strong> $500/month</p>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <img src="https://via.placeholder.com/600x300?text=Contact+Smart+Digital" alt="Contact Us" class="section-img">
+    <p>Email: contact@smartdigital.com</p>
+    <p>Phone: +1 (555) 987-6543</p>
+    <p>Address: 123 Growth Street, Marketing City, USA</p>
+    <p><strong>Hours:</strong> Mon – Fri: 9:00 AM – 6:00 PM</p>
+
+    <iframe src="https://maps.google.com/maps?q=central+park+new+york&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="4" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonials">
+    <h2>Client Testimonials</h2>
+    <img src="https://via.placeholder.com/600x300?text=Client+Reviews" alt="Testimonials" class="section-img">
+
+    <blockquote>"Smart Digital helped our brand grow faster than ever!" – Riya M., Tech Entrepreneur</blockquote>
+    <blockquote>"Efficient, transparent, and results-driven." – Arjun T., E-commerce Founder</blockquote>
+
+    <video controls>
+      <source src="testimonial.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+  <!-- Blog -->
+  <section id="blog">
+    <h2>From Our Blog</h2>
+    <img src="https://via.placeholder.com/600x300?text=Marketing+Tips+2025" alt="Blog" class="section-img">
+
+    <article>
+      <h3>Top 5 Marketing Trends in 2025</h3>
+      <p>Explore the hottest digital strategies and tools you should know...</p>
+      <a href="#">Read More</a>
+    </article>
+
+    <article>
+      <h3>Boost ROI with Smart Ads</h3>
+      <p>Our latest case study on how to scale paid advertising efficiently...</p>
+      <a href="#">Read More</a>
+    </article>
+  </section>
+
+  <!-- FAQs -->
+  <section id="faqs">
+    <h2>FAQs</h2>
+    <img src="https://via.placeholder.com/600x300?text=FAQs" alt="FAQs" class="section-img">
+
+    <div>
+      <h4>How soon will I see results?</h4>
+      <p>Most clients notice results within 30-60 days depending on the service.</p>
+    </div>
+
+    <div>
+      <h4>Is there a contract?</h4>
+      <p>We offer flexible monthly plans without long-term commitments.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-links">
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms & Conditions</a>
+      <a href="#">Cookie Policy</a>
+    </div>
+
+    <a href="#contact" class="btn">Let’s Grow Your Brand</a>
+
+    <p>&copy; 2025 Smart Digital Marketing. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
